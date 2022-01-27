@@ -1,0 +1,33 @@
+{
+  "name": "mario-chat-ts-api",
+  "version": "1.0.0",
+  "description": "api server for mario-chat-ts",
+  "main": "./index.ts",
+  "scripts": {
+    "start": "nodemon index.ts"
+  },
+  "keywords": [
+    "api",
+    "express",
+    "ts"
+  ],
+  "author": {
+    "name": "elda_mahaindra",
+    "email": "faith030@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.12",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  }
+}
