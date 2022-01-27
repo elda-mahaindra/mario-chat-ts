@@ -30,6 +30,7 @@ export const useSocketContext = () => {
 
   useEffect(() => {
     socket.on(EventEnum.CHAT, (data: IChat) => {
+      setCurrentlyTyping("");
       setChats((prev) => [...prev, data]);
     });
 
